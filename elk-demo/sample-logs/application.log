@@ -1,0 +1,20 @@
+2025-10-29T10:15:23+03:00 INFO [main] com.example.Application - Application started successfully on port 8080
+2025-10-29T10:16:45+03:00 INFO [http-thread-1] com.example.UserController - User login successful: user_id=user123
+2025-10-29T10:17:12+03:00 WARN [http-thread-2] com.example.ProductController - Product not found: product_id=999
+2025-10-29T10:18:34+03:00 ERROR [http-thread-1] com.example.DashboardController - Database connection failed: timeout after 30s
+2025-10-29T10:19:56+03:00 INFO [http-thread-3] com.example.UserController - User deleted: user_id=123, admin=user1
+2025-10-29T10:20:11+03:00 DEBUG [scheduler] com.example.StatsService - Calculating daily statistics: records=15432
+2025-10-29T10:21:33+03:00 INFO [http-thread-2] com.example.UserController - New user registered: email=test@example.com
+2025-10-29T10:22:44+03:00 INFO [http-thread-1] com.example.UserController - User profile requested: user_id=456
+2025-10-29T10:23:55+03:00 ERROR [http-thread-3] com.example.SettingsController - Failed to update settings: validation error on field=notification_email
+2025-10-29T10:24:08+03:00 INFO [health-check] com.example.HealthController - Health check passed: uptime=14d 5h 23m
+2025-10-29T10:25:15+03:00 WARN [security] com.example.SecurityFilter - Access denied for IP: 192.168.1.70, reason=rate_limit_exceeded
+2025-10-29T10:26:22+03:00 INFO [http-thread-2] com.example.OrderController - Order created: order_id=ORD-001, amount=299.99, user=user2
+2025-10-29T10:27:33+03:00 DEBUG [search-service] com.example.SearchService - Search query executed: query='laptop', results=42, time_ms=156
+2025-10-29T10:28:44+03:00 INFO [cache-manager] com.example.CacheManager - Cache cleared successfully: size=1024MB, items=15678
+2025-10-29T10:29:55+03:00 WARN [rate-limiter] com.example.RateLimitFilter - Rate limit exceeded: ip=192.168.1.90, endpoint=/api/public/info
+2025-10-29T10:30:10+03:00 DEBUG [metrics] com.example.MetricsController - Metrics scraped: response_time=45ms
+2025-10-29T10:31:22+03:00 ERROR [payment-service] com.example.PaymentController - Payment processing failed: error=insufficient_funds, user=192.168.1.10
+2025-10-29T10:32:33+03:00 INFO [http-thread-4] com.example.UserController - User list fetched: count=234, page=1
+2025-10-29T10:33:44+03:00 INFO [http-thread-1] com.example.ProfileController - Profile updated: user_id=user123, fields=[avatar,bio]
+2025-10-29T10:34:55+03:00 WARN [http-thread-2] com.example.ConfigController - Config endpoint not found: path=/api/config
